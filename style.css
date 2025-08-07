@@ -14,6 +14,17 @@ body {
     padding: 20px;
 }
 
+
+.github-icon {
+  background-image: url('Images/WebIcon.png');
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
 /* Header styles */
 .header {
     text-align: center;
@@ -120,4 +131,5 @@ label {
 
 #toggleCheckbox:checked + label {
     background-color: #e74c3c;
+
 }
