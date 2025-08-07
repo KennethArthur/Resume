@@ -6,6 +6,10 @@ body {
     color: #333333;
     margin: 0;
     padding: 0;
+    <! -- background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; --> 
 }
 
 .container {
@@ -133,3 +137,4 @@ label {
     background-color: #e74c3c;
 
 }
+
