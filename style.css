@@ -1,0 +1,123 @@
+/* Global styles */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+
+
+/* Section styles */
+.section {
+    margin-bottom: 20px;
+}
+.section h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #333333; 
+}
+.section h2 {
+    border-bottom: 2px solid #333333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.section h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333333; 
+}
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Auto-numbering styles */
+.auto-numbering {
+    counter-reset: section;
+}
+
+.auto-numbering li {
+    list-style: none;
+    position: relative;
+    padding-left: 20px;
+}
+
+.auto-numbering li:before {
+    content: counter(section) ". ";
+    counter-increment: section;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4
+
+
+
+/* toggle styles */
+label {
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    background-color: #008CBA;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.content {
+    display: none;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#toggleCheckbox:checked + label + .content {
+    display: block;
+}
+
+#toggleCheckbox:checked + label {
+    background-color: #e74c3c;
+}
